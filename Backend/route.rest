@@ -1,0 +1,37 @@
+POST http://localhost:8000/api/v1/socialMedia/Account
+Content-Type: application/json
+
+{
+    "userName" : "Lakshman Karthick T",
+    "email": "lachu@gmail.com",
+    "bio": "Writer/Reader",
+    "profileImage": "https://ss-i.thgim.com/public/incoming/innftq/article66484710.ece/alternates/FREE_1200/1464013415.jpg",
+    "password": "Lachu@18"
+}
+
+###
+
+GET http://localhost:8000/api/v1/socialMedia/Account
+
+###
+
+GET http://localhost:8000/api/v1/socialMedia/Account/65d9c33c47cc4266e652bbc1
+
+###
+
+POST http://localhost:8000/api/v1/socialMedia/posts
+Content-Type: application/json
+
+{
+    "message" : "Hava a great Day",
+    "imgUrl": "https://goodmorningwisher.com/wp-content/uploads/2023/11/Let-your-dreams-come-to-life-my-love-I-hope-you-have-a-great-day-filled-with-hopes-smiles-and-cherishable-moments.jpg",
+    "userName": "Giridhara Vijat R",
+    "timestamp": "25/02/2024"
+}
+
+###
+GET http://localhost:8000/api/v1/socialMedia/posts
+
+###
+
+DELETE http://localhost:8000/api/v1/socialMedia/posts/65dae54c91bf213818b4c6df
