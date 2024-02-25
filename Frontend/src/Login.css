@@ -1,0 +1,117 @@
+.navbar{
+  background-color: rgb(24, 19, 30);
+  display: flex;
+  padding: 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-heading{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.fullPage-login{
+  background-color: rgb(36, 5, 65);
+  height: 100vh;
+}
+
+/* LoginBox.css */
+
+.login-box {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 3%;
+  padding: 2%;
+  border: 1px solid rgb(24, 19, 30);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(24, 19, 30);
+  background-color: rgb(24, 19, 30);
+}
+
+.login-box h2 {
+  /* text-align: center; */
+  color: white;
+  font-size:x-large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 4%;
+  margin-top: 4%;
+  
+}
+
+.field-login {
+  /* display: block; */
+  margin-bottom: 5px;
+  color: white;
+  text-align: left;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button-login {
+  width: 100%;
+  padding: 10px;
+  background-color: #45a049;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-login:hover {
+  background-color: #3b5e3d;
+}
+
+.noAcc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+  color: white;
+}
+
+.signButton{
+  margin-left: 5px;
+  color: #45a049;
+  cursor: pointer;
+}
+
+.flex-signup{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0%;
+}
+
+.signup-box{
+  max-width: 70vw;
+}
+
+/* .margin-left{
+  margin-left: 5%;
+} */
+
+textarea{
+  resize: none;
+}
+
+.input-group-signup{
+  width: 30vw;
+}
+
+.text-area1{
+  width: 30vw;
+  height: 10vh;
+}

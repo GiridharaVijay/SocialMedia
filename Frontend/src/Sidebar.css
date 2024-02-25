@@ -1,0 +1,27 @@
+.Sidebar-heading{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 7vh;
+}
+
+.sidebar-buttons{
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    margin-top: 5vh;
+    font-size: large;
+    cursor: pointer;
+}
+
+.sidebar-buttons:hover{
+    background-color: rgb(18, 26, 112);
+}
+
+.sidebar-text{
+    margin-left: 1vh;
+}

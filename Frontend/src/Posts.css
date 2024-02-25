@@ -1,0 +1,27 @@
+/* Assuming you have a parent container with a class name of "flex" */
+.flex {
+    display: flex;
+    color: rgb(28, 21, 61); /* Assuming you want black text color */
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 16.666%; /* 1/6 of the parent width */
+    background-color: rgb(4, 8, 49); /* Assuming you want a slategray background color */
+    height: 100vh;
+  }
+  
+  /* Posts container styles */
+  .posts-container {
+    width: 75%; /* 3/4 of the parent width */
+    background-color: rgb(27, 31, 69); /* Assuming you want a specific shade of slate background color */
+    height: 100vh;
+  }
+  
+  /* Profile container styles */
+  .profile-container {
+    width: 25%; /* 1/4 of the parent width */
+    background-color: rgb(4, 8, 49); /* Assuming you want a slategray background color */
+    height: 100vh;
+  }
+  

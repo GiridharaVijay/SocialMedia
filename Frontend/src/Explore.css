@@ -1,0 +1,381 @@
+/* App.css (or any other stylesheet) */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+/*   
+  .explore-section {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(185, 141, 141, 0.1);
+    border-radius: 10%;
+  } */
+.explore-section{
+    display: flex;
+    margin-top: 4vh;
+    width: 90%;
+    padding: 0vh;
+    margin-left: 3vw;
+    
+}
+  .myInput {
+    /* background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat; */
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(4, 8, 49);
+    /* border-radius: 5%; */
+  }
+  
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .post-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post-card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .serach-icon{
+    color: black;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 12px;
+    background-color: white;
+    font-size: large;
+    border: 3px solid rgb(4, 8, 49);
+  }
+  /* Add more styles as needed */
+
+  .chat{
+    background-color: rgb(48, 48, 87);
+    margin-left: 0px;
+    width: 40vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0,0.75);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    /* flex: 0.65; */
+    flex: 1;
+}
+
+/* .chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+} */
+
+.chat_header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0,0.75);
+    background-color: rgb(39, 39, 72);
+    border-radius: 25px;
+}
+
+.chat_headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat_headerInfo>h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+    color: white;
+}
+
+.chat_headerInfo>p{
+    color: gray;
+}
+
+.chat_body{
+    flex: 1;
+    /* background-image: url("http://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png"); */
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    background-color: rgb(48, 48, 87);
+    height: 85vh;
+    /* overflow: scroll; */
+}
+
+.chat_body{
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll;     
+}
+
+.chat_body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+  .chat_message{
+    position: relative;
+    font-size: 16px;
+    padding: 3%;
+    color: white;
+    width: 35vw;
+    border-radius: 10px;
+    background-color: #8f0f6a;
+    /* margin-bottom: 30px; */
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.chat_receiver{
+    margin-left: auto;
+    /* background-color: #5362e9; */
+    background-color: rgb(88, 88, 154);
+    /* background-color: #64b4e5; */
+}
+
+.chat_timestamp{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size:70%;
+    color: rgb(188, 180, 180);
+    font-weight: 50;
+    margin-top: 10px;
+}
+
+.chat_name{
+    position: absolute;
+    top: -20px;
+    font-weight: 800;
+    font-size: small;
+    left: 0%;    
+}
+
+.chat_name_posi{
+    background-color: rgb(15, 15, 20);
+    /* width: 100%; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+    /* margin-top: 335px; */
+}
+
+.chat_footer>form{
+    flex:1;
+    display:flex;
+    padding:0px;
+    margin-right: 15px;
+}
+
+.chat_footer>form>input{
+    flex: 1;
+    border-radius:30px;
+    padding: 10px;
+    border:none;
+    
+}
+
+.chat_footer>form>input{
+    border:none;
+    outline-width: 0;
+    margin-left: 10px;
+
+}
+
+.chat_footer>form>button{
+    display: none;
+}
+
+.chatInput{
+     margin-bottom: 5%;
+}
+
+
+.chat_footer>.MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+}
+
+.msgImage{
+    height: 40vh;
+    width: 30vw;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/* .during-popup{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+} */
+
+.photo{
+    padding: 10px;
+    color: gray;
+}
+.msg{
+    margin-top: 20px;
+}
+
+.position{
+    display: flex;
+}
+
+.delete{
+    color: gray;
+    padding-right: 5px;
+    cursor: pointer;
+    margin-left: 60%;
+}    
+
+.position2{
+    justify-content:right;
+    display: flex;
+   align-items: center;
+   margin-left: 50%;
+}
+
+.post-box{
+        max-width: 55vw;
+        margin: auto;
+        margin-top: 3%;
+        padding: 2%;
+        border: 1px solid rgb(24, 19, 30);
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(24, 19, 30);
+        background-color: rgb(24, 19, 30);
+      
+}
+
+.text-area{
+    width: 52vw;
+    height: 30vh;
+}
+
+.text-area2{
+    width: 52vw;
+    height: 15vh;
+}
+  
+.post-heading{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Add this to your existing stylesheet or create a new one */
+
+.fixed {
+    position: fixed;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .left-0 {
+    left: 0;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .bg-gray-800 {
+    background-color: #2d3748; /* Replace with your desired color code */
+  }
+  
+  .bg-opacity-50 {
+    background-color: rgba(45, 55, 72, 0.5); /* Adjust the alpha channel as needed */
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .p-10 {
+    padding: 2.5rem; /* Adjust as needed */
+  }
+  
+  .text-black {
+    color: #000;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem; /* Adjust as needed */
+  }
+  
+  .font-sans {
+    font-family: sans-serif;
+  }
+  
+  .font-extrabold {
+    font-weight: 800;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+  
+  .bg-green-600 {
+    background-color: #38a169; /* Replace with your desired color code */
+  }
+  
+  .p-2 {
+    padding: 0.5rem; /* Adjust as needed */
+  }
+  
+  .pl-4 {
+    padding-left: 1rem; /* Adjust as needed */
+  }
+  
+  .pr-4 {
+    padding-right: 1rem; /* Adjust as needed */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .ml-24 {
+    margin-left: 0rem; /* Adjust as needed */
+  }
+  
+  .mt-5 {
+    margin-top: 1.25rem; /* Adjust as needed */
+  }
+  

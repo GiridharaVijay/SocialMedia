@@ -1,0 +1,48 @@
+.user-profile-container {
+    border-radius: 9999px; /* Large value for rounded-full effect */
+    width: 50%; /* w-1/2 in Tailwind CSS */
+    margin-left: 5vw; /* ml-20 in Tailwind CSS */
+    border: 4px solid #1f2933; /* border-slate-800 in Tailwind CSS */
+    margin-top: 5vh; /* mt-4 in Tailwind CSS */
+
+  }
+  
+  /* Assuming you have an image element with a class name of "user-profile-image" */
+  .user-profile-image {
+    width: 100%; /* w-full in Tailwind CSS */
+    height: 100%; /* h-full in Tailwind CSS */
+    object-fit: cover; /* object-cover in Tailwind CSS */
+    border-radius: 9999px; /* Large value for rounded-full effect */
+  }
+
+  .userDetails-profile{
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+  text-align: left;
+  margin-left: 0%;
+  }
+
+  .userHeading-Profile{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 5vh;
+  }
+
+  .icons-profile{
+    display: flex;
+    color: gray;
+    cursor: pointer;
+    margin-left: 5vw;
+  }
+
+  .icons-flex{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 2vw;
+  }
